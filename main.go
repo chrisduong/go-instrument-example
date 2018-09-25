@@ -5,6 +5,7 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/chrisduong/go-instrument-example/promauto"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )
